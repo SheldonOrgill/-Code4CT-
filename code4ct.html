@@ -1,40 +1,124 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Code4CT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <!-- This is the favicon link -->
+    <link rel="icon" type="favicon" href="./images/title_image.png">
+    <!-- This is my css stylesheet link -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./sass/style.css" />
 </head>
-<body>
-    <div>
-         <!-- NAVBAR -->
-    <nav class="mainNav" id="mainNav">
-            <logo><img src="img/code4ct-logo-1.jpg" class="active" style="border: none"></a></logo>
-            <a href="" id="active">Home</a>
-            <a href="">Courses</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
-            <a href="">Portfolio</a>
-            <!-- End of navBar -->
-            <!-- SearchBar -->
-     <div class="searchBar"></div> 
-     <input type="search" placeholder="Search..." id="searchField">
-     <button id="searchButton"><i class="fas fa-search">enter</i></button>
- </div>
-</nav>
-<section>
-    <h1><center>Young women leveraging tech for social innovation</h1></center>
-    <p><center>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus, illum odio inventore temporibus atque officia officiis repellat aliquid dicta animi dolor fugiat tenetur? Ipsum neque nihil illo aliquam repudiandae!</p>
-</center>
-<center>
-<button id="button"><i class="">StartCoding</i></button>
-<button id="button"><i class="">Donate</i></button>
-</center>
-</section>
 
-    
+<body>
+
+    <!-- This is the main container -->
+    <div id="container">
+
+        <!-- This is the index grid container -->
+        <div id="grid_container">
+
+            <!-- This is the navbar -->
+            <div id="navbar">
+                <!-- This is the navbar logo -->
+                <a href="index.html">
+                    <div id="nav_logo"></div>
+                </a>
+                <div id="nav_menu_btn" onclick="changeToClose()">
+                    <div id="menu_line1"></div>
+                    <div id="menu_line2"></div>
+                    <div id="menu_line3"></div>
+                </div>
+                <!-- This is the navbar links -->
+
+                <ul>
+                    <center>
+                        <!-- These are the links -->
+                        <a href="#home" class="selected" onclick="backToTop()" id="homeBtn">Home</a>
+                        <a href="courses.html">Courses</a>
+                        <a href="about.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                </ul>
+                </center>
+            </div>
+            <!-- This is the search box inside the navbar -->
+            <div id="search_box">
+                <input type="search" placeholder="search..">
+                <div id="search_icon"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is the image slider -->
+    <div id="the_slider">
+        <div id="slider_box">
+            <!-- These are the images -->
+            <img src="" id="img_1">
+            <img src="" id="img_2">
+            <img src="" id="img_3">
+            <!-- This is the slide buttons -->
+            <div id="slideBtn_1"></div>
+            <div id="slideBtn_2"></div>
+            <div id="slideBtn_3"></div>
+        </div>
+    </div>
+    </nav>
+    <section>
+        <h1>
+            <center>Young women leveraging tech for social innovation
+        </h1>
+        </center>
+        <p>
+            <center>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus, illum odio inventore
+                temporibus atque officia officiis repellat aliquid dicta animi dolor fugiat tenetur? Ipsum neque nihil
+                illo aliquam repudiandae!
+        </p>
+        </center>
+        <center>
+            <button id="button"><i class="">StartCoding</i></button>
+            <button id="button"><i class="">Donate</i></button>
+        </center>
+    </section>
+    <section>
+        <div id="aboutUs_info">
+            <h2><span id="solid_border">Who</span> we are</h2>
+            <p>Code for Cape Town strives to see young women empowered to leverage technology for social innovation,
+                so that there is greater diversity in the African tech industry. <p>
+            <div id="about_info_section1">
+                <div id="about_vision">
+                    <h3>Our Vision</h3>
+                    <p>Code4CT exists to see young South African women in positions to drive African innovation<p>
+                </div>
+                <div id="about_mission">
+                    <h3>Our Mission</h3>
+                    <p>Code4CT equips high potential female learners with the coding, problem solving and life skills
+                        that will allow them to leverage technology to contribute meaningfully to SA innovation system.<p>
+                </div>
+            </div>
+            <div id="about_info_section2">
+                <div id="about_help">
+
+                    <h3>Our Help</h3>
+                    <p>Our coders are required to work in a collaborative, self-directed manner; taking responsibility
+                        for their own learning, working in culturally diverse groups, and responding efficiently to
+                        change.<p>
+                </div>
+                <div id="about_supports">
+                    <h3>Our Supports</h3>
+                    <p>Throughout the program our young coders work in groups to solve real-life problems. They are
+                        exposed to an enabling professional network of tech companies, tutors, mentors and likeminded
+                        peers.<p>
+                </div>
+            </div>
+        
+
+
+
+
+   
 </body>
+
 </html>
