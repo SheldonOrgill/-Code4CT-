@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +10,6 @@
     <!-- This is my css stylesheet link -->
     <link rel="stylesheet" type="text/css" media="screen" href="./sass/style.css" />
 </head>
-
 <body>
 
     <!-- This is the main container -->
@@ -23,102 +21,77 @@
             <!-- This is the navbar -->
             <div id="navbar">
                 <!-- This is the navbar logo -->
-                <a href="index.html">
-                    <div id="nav_logo"></div>
-                </a>
+                <a href="index.html"><div id="nav_logo"></div></a>
                 <div id="nav_menu_btn" onclick="changeToClose()">
                     <div id="menu_line1"></div>
                     <div id="menu_line2"></div>
                     <div id="menu_line3"></div>
                 </div>
                 <!-- This is the navbar links -->
-
-                <ul>
-                    <center>
-                        <!-- These are the links -->
-                        <a href="#home" class="selected" onclick="backToTop()" id="homeBtn">Home</a>
-                        <a href="courses.html">Courses</a>
-                        <a href="about.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                </ul>
-                </center>
-            </div>
-            <!-- This is the search box inside the navbar -->
-            <div id="search_box">
-                <input type="search" placeholder="search..">
-                <div id="search_icon"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- This is the image slider -->
-    <div id="the_slider">
-        <div id="slider_box">
-            <!-- These are the images -->
-            <img src="" id="img_1">
-            <img src="" id="img_2">
-            <img src="" id="img_3">
-            <!-- This is the slide buttons -->
-            <div id="slideBtn_1"></div>
-            <div id="slideBtn_2"></div>
-            <div id="slideBtn_3"></div>
-        </div>
-    </div>
-    </nav>
-    <section>
-        <h1>
-            <center>Young women leveraging tech for social innovation
-        </h1>
-        </center>
-        <p>
-            <center>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus, illum odio inventore
-                temporibus atque officia officiis repellat aliquid dicta animi dolor fugiat tenetur? Ipsum neque nihil
-                illo aliquam repudiandae!
-        </p>
-        </center>
-        <center>
-            <button id="button"><i class="">StartCoding</i></button>
-            <button id="button"><i class="">Donate</i></button>
-        </center>
-    </section>
-    <section>
-        <div id="aboutUs_info">
-            <h2><span id="solid_border">Who</span> we are</h2>
-            <p>Code for Cape Town strives to see young women empowered to leverage technology for social innovation,
-                so that there is greater diversity in the African tech industry. <p>
-            <div id="about_info_section1">
-                <div id="about_vision">
-                    <h3>Our Vision</h3>
-                    <p>Code4CT exists to see young South African women in positions to drive African innovation<p>
-                </div>
-                <div id="about_mission">
-                    <h3>Our Mission</h3>
-                    <p>Code4CT equips high potential female learners with the coding, problem solving and life skills
-                        that will allow them to leverage technology to contribute meaningfully to SA innovation system.<p>
+                <div id="nav_links">
+                    <div id="links_box">
+                        <ul>
+                            <!-- These are the links -->
+                            <a href="#home" class="selected" onclick="backToTop()" id="homeBtn"><li>Home</li></a>
+                            <a href="courses.html"><li>Courses</li></a>
+                            <a href="about.html"><li>About</li></a>
+                            <a href="portfolio.html"><li>Portfolio</li></a>
+                            <a href="contact.html"><li>Contact</li></a>
+                        </ul>
+                    </div>
+                    <!-- This is the search box inside the navbar -->
+                    <div id="search_box">
+                        <input type="search" placeholder="search..">
+                        <div id="search_icon"></div>
+                    </div>
                 </div>
             </div>
-            <div id="about_info_section2">
-                <div id="about_help">
-
-                    <h3>Our Help</h3>
-                    <p>Our coders are required to work in a collaborative, self-directed manner; taking responsibility
-                        for their own learning, working in culturally diverse groups, and responding efficiently to
-                        change.<p>
-                </div>
-                <div id="about_supports">
-                    <h3>Our Supports</h3>
-                    <p>Throughout the program our young coders work in groups to solve real-life problems. They are
-                        exposed to an enabling professional network of tech companies, tutors, mentors and likeminded
-                        peers.<p>
+            <!-- This is the image slider -->
+            <div id="the_slider">
+                <div id="slider_box">
+                    <!-- These are the images -->
+                    <img src="./img/code4ct_homepage.jpg" id="img_1">
                 </div>
             </div>
-        
+             <!-- This is the header text inside the image slider -->
+             <div id="header_text">
+                <h1>Code For Cape Town</h1>
+                <h3>We want to see young women empowered to leverage technology for social innovation, so that there is greater diversity in the African tech industry. We want high school girls to have an enabling environment to imagine and create new technology that is relevant to a South African context.</h3>
+                <!-- This is the button inside the header text -->
+                <div id="header_btn">
+                    <button id="start_coding_btn">Start Coding</button>
+                    <button id="start_coding_btn">Donate Now</button>
+                </div>
+            </div>
 
-
-
-
-   
-</body>
-
-</html>
+            <div id="back_to_top">
+                <p>^</p>
+            </div>
+             <!-- This is the main container -->
+             <div id="main_content">
+                <!-- This is the introduction info -->
+                <div id="intro_info">
+                    <h3><span id="solid_border">Who</span> we are : </h3>
+                    <h5>Code for Cape Town (Code4CT) is a programme that introduces young girls to basic web building skills and exposes them to opportunities in the Information and Communication Technologies (ICT) sector. Participants are trained in web development, design principles, as well as courses in professional development. Code4CT aims to inspire a generation of young girls who are well-prepared with a toolkit of technical and soft skills in order to achieve high impact in the workplace.</h5>
+                    <!-- This is the read more button -->
+                </div>
+                <!-- This is the intro mini image gallery -->
+                <div id="intro_img">
+                    <!-- Intro image 1 -->
+                    <div id="intro_img1">
+                        <img src="./img/info_img1.jpg">
+                    </div>
+                    <!-- Intro image 2 -->
+                    <div id="intro_img2">
+                        <img src="./img/info_img2.jpg">
+                    </div>
+                    <!-- Intro image 3 -->
+                    <div id="intro_img3">
+                        <img src="./img/info_img3.jpg">
+                    </div>
+                    <!-- Intro image 4 -->
+                    <div id="intro_img4">
+                        <img src="./img/info_img4.jpg">
+                    </div>
+                </div>
+            </div>
