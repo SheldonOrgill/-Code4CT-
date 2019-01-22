@@ -70,11 +70,21 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
-    div {
-        min-height: 180px;
-        background: #666;
-        width: 100%;
-        height: 100%;
+    .figure_1 {
+        background-image: url("../images/info_img1.jpg");
+        background-size: cover;
+    }
+    .figure_2 {
+        background-image: url("../images/info_img2.jpg");
+        background-size: cover;
+    }
+    .figure_3 {
+        background-image: url("../images/info_img3.jpg");
+        background-size: cover;
+    }
+    .figure_4 {
+        background-image: url("../images/info_img4.jpg");
+        background-size: cover;
     }
 }
 .rect {
