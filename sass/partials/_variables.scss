@@ -1,13 +1,6 @@
 
-$borderSettings: none;
-
-// This is the theme color
-$themeColor: #e1918a;
-
-// This is the shadows for the images
-$imgShadow: 5px 5px 10px grey;
-
-// This is the color scheme for the contact page
-$contactTextColor: rgb(99, 99, 99);
-
-$headingsThemeColor: rgb(63, 63, 63);
+$lightGrey: #f9f9f9;
+$primary: #ee534f;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+$font: 'Poppins', sans-serif;
+$borderSettings: none
