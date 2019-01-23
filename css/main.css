@@ -27,16 +27,19 @@ header, main, footer {
   border-radius: 4px; }
 
 #yourName, #yourEmail, #yourNumber {
-  width: 150px;
+  width: 220px;
   height: 3em;
   border-radius: 2px;
+  margin-top: 40px;
   border: solid 1px #666666; }
 
 #myForm {
   padding-left: 10%; }
 
 #yourMessage {
-  width: 40%; }
+  margin-top: 50px;
+  width: 92.4vh;
+  height: 25vh; }
 
 .main_contact {
   display: grid;
@@ -80,7 +83,7 @@ footer {
 #home_about_info_contact1 img {
   width: 20px;
   height: 20px; }
-#home_about_info_contact1 home_mail, #home_about_info_contact1 .home_location {
+#home_about_info_contact1 .home_mail, #home_about_info_contact1 .home_location {
   padding-top: 100px; }
 
 nav {
