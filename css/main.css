@@ -27,10 +27,61 @@ header, main, footer {
   border-radius: 4px; }
 
 #yourName, #yourEmail, #yourNumber {
-  width: 30%;
+  width: 150px;
   height: 3em;
   border-radius: 2px;
   border: solid 1px #666666; }
+
+#myForm {
+  padding-left: 10%; }
+
+#yourMessage {
+  width: 40%; }
+
+.main_contact {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 70% 30%; }
+
+h2 {
+  padding-left: 10%; }
+
+footer {
+  font-size: 1.25em;
+  background: #f9f9f9;
+  padding: 4em 0; }
+  footer .container {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(3, 1fr);
+    grid-gap: 1em;
+    max-width: 1240px;
+    margin: 0 auto; }
+    footer .container .heading {
+      color: #555;
+      font-weight: 500; }
+    footer .container ul {
+      padding-left: 1.2em; }
+      footer .container ul li {
+        list-style-type: square; }
+      footer .container ul a {
+        text-decoration: none;
+        color: #555; }
+        footer .container ul a:hover {
+          color: #ee534f; }
+
+.copy {
+  background: #ee534f;
+  color: #fff;
+  padding: .5em 0; }
+  .copy .container {
+    max-width: 1024px;
+    margin: 0 auto; }
+
+#home_about_info_contact1 img {
+  width: 20px;
+  height: 20px; }
+#home_about_info_contact1 home_mail, #home_about_info_contact1 .home_location {
+  padding-top: 100px; }
 
 nav {
   background: #f9f9f9;
@@ -203,6 +254,29 @@ button {
     background-size: cover; }
   .figures .figure_4 {
     background-image: url("../images/info_img4.jpg");
+    background-size: cover; }
+  .figures .exciting_1 {
+    background-image: url("../images/portfolio_img1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 200px; }
+  .figures .exciting_2 {
+    background-image: url("../images/portfolio_img2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 200px; }
+  .figures .exciting_3 {
+    background-image: url("../images/portfolio_img3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%; }
+  .figures .exciting_4 {
+    background-image: url("../images/portfolio_img4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 200px; }
+  .figures .exciting_5 {
+    background-image: url("../images/portfolio_img5.jpg");
     background-size: cover; }
 
 .rect {

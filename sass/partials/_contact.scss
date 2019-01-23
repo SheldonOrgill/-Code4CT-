@@ -13,8 +13,69 @@
   border-radius: 4px;
 }
 #yourName,#yourEmail,#yourNumber{
-    width: 30%;
+    width: 150px;
     height: 3em;
     border-radius: 2px;
     border: solid 1px #666666;
+}
+#myForm{
+    padding-left: 10%;
+}
+#yourMessage{
+    width: 40%;
+}
+.main_contact{
+    display: grid;
+    width: 100%;
+    grid-template-columns:70% 30% ;
+}
+h2{
+    padding-left: 10%;
+}
+footer {
+    font-size: 1.25em;
+    background: $lightGrey;
+    padding: 4em 0;
+    .container {
+        display: grid;
+        grid-template-columns: 1.5fr repeat(3, 1fr);
+        grid-gap: 1em;
+        max-width: 1240px;
+        margin: 0 auto;
+        .heading {
+            color: #555;
+            font-weight: 500;
+        }
+        ul {
+            padding-left: 1.2em;
+            li {
+                list-style-type: square;
+            }
+            a {
+                text-decoration: none;
+                color: #555;
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+.copy {
+    background: $primary;
+    color: #fff;
+    padding: .5em 0;
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+#home_about_info_contact1{
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    home_mail,.home_location{
+        padding-top: 100px;
+    }
 }
