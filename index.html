@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Home</title>
 </head>
 <body>
     <header>
         <nav>
+                <img class="home_logo" src="./images/code4ct_logo.jpg">
             <div class="container">
+                    <!-- <img class="home_logo" src="./images/code4ct_logo.jpg"> -->
                 <ul>
-                   <a href="#"> <li>HOME</li></a>
+                   <a href="index.html"> <li>HOME</li></a>
                    <a href="courses.html"><li>COURSES</li></a>
                    <a href="about.html"><li>ABOUT</li></a>
                   <a href="contact.html"><li>CONTACT</li></a>
@@ -71,8 +73,13 @@
                     <p>Apply your coding skills to issues you are interested in. You will learn how to tackle complex problems using the design thinking process.</p>
                 </div>
                 <div>
-                    <img src="images/speaker_logo.png" alt="">
+                    <img src="images/wrench_logo.png" alt="">
                     <h2>CAREER GUIDANCE</h2>
+                    <p>Explore future options by meeting different companies doing exciting things with technology. We offer career testing and connect you to our network of study institutions and bursary programs.</p>
+                </div>
+                <div>
+                    <img src="images/speaker_logo.png" alt="">
+                    <h2>COMMUNICATION</h2>
                     <p>Explore future options by meeting different companies doing exciting things with technology. We offer career testing and connect you to our network of study institutions and bursary programs.</p>
                 </div>
             </div>
@@ -101,7 +108,7 @@
                 </h2>
                 <p class="description">Code for Cape Town’s teaching team is made up of trained facilitators who are either working in the industry as developers or studying Computer Science or Information Systems at tertiary institutions such as UCT, UWC and CPUT. Our facilitators are passionate about teaching and seeing Code for Cape Town participants grow in their professional and personal development. Facilitators create a light-hearted atmosphere, with fun icebreakers and energisers, and zany examples during lessons.</p>
                 <div class="team_grid">
-                    <div class="face"></div>
+                    <div class="face_1"></div>
                     <div class="tag">
                         <h2>Emma Dicks</h2>
                         <h3>Founder and Director</h3>
@@ -110,7 +117,7 @@
                             Emma is passionate about providing high quality education that enables young people to bring innovative ideas to life and play an active role in South Africa’s economy.
                         </p>
                     </div>
-                    <div class="face"></div>
+                    <div class="face_2"></div>
                     <div class="tag">
                         <h2>Tegan Crous</h2>
                         <h3>Program Lead</h3>
@@ -122,7 +129,7 @@
                             Tegan has a long history with the organisation and she has delighted in being part of its impact and growth.                          
                         </p>
                     </div>
-                    <div class="face"></div>
+                    <div class="face_3"></div>
                     <div class="tag">
                         <h2>Tracy-Anne Sikenjana</h2>
                         <h3>Leadership Program Coordinator.</h3>
@@ -131,7 +138,7 @@
                             Tracy joined the Code4CT program in 2015 and then matriculated from Rustenburg Girls’ High in 2016. She decided to intern with Code4CT to give back to an organisation that had a large impact on her personal growth and development. During her time at Code4CT she facilitated coding classes, headed up the Ambassador programme and assisted with all program operations and logistics. She believes in helping young girls realize the potential they have to become game changers in their local communities.
                         </p>
                     </div>
-                    <div class="face"></div>
+                    <div class="face_4"></div>
                     <div class="tag">
                         <h2>Jannie Doe</h2>
                         <h3>Photographer</h3>
@@ -158,43 +165,81 @@
         <div class="rect"></div>
     </main>
     <footer>
-        <div class="container">
-            <div class="heading">Conatct:</div>
-            <div class="heading">Company</div>
-            <div class="heading">Help & Support</div>
-            <div class="heading">Courses</div>
-            <div></div>
-            <div class="links">
-                <ul>
-                    <a href=""><li>About us</li></a>
-                    <a href=""><li>Contact us</li></a>
-                    <a href=""><li>Blog</li></a>
-                    <a href=""><li>Testimonials</li></a>
-                    <a href=""><li>Affiliate program</li></a>
-                </ul>
+            <div class="container">
+                <div class="heading">Conatct:</div>
+                <div class="heading">Company</div>
+                <div class="heading">Help & Support</div>
+                <div class="heading">Courses</div>
+                <div>
+                    <div id="home_about_info_contact1">
+    
+                        <div id="home_phone_logo">
+                            <img src="./images/phone_logo.png"> 021 685 0991
+                        </div>
+                        <div id="home_mail">
+                            <img src="./images/envelope_logo.png"> 021 685 0991</div>
+                        <div id="home_location">
+                            <img src="./images/location_logo.png"> 021 685 0991</div>
+                    </div>
+    
+                </div>
+                <div class="links">
+                    <ul>
+                        <a href="">
+                            <li>About us</li>
+                        </a>
+                        <a href="">
+                            <li>Contact us</li>
+                        </a>
+                        <a href="">
+                            <li>Blog</li>
+                        </a>
+                        <a href="">
+                            <li>Testimonials</li>
+                        </a>
+                        <a href="">
+                            <li>Affiliate program</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <a href="">
+                            <li>Help center</li>
+                        </a>
+                        <a href="">
+                            <li>Free simple template</li>
+                        </a>
+                        <a href="">
+                            <li>Refund policy</li>
+                        </a>
+                        <a href="">
+                            <li>Report span</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <a href="">
+                            <li>Intro to Web Pages</li>
+                        </a>
+                        <a href="">
+                            <li>Beginner JavaScript</li>
+                        </a>
+                        <a href="">
+                            <li>Codestorm</li>
+                        </a>
+                        <a href="">
+                            <li>Fullstack JavaScript</li>
+                        </a>
+                    </ul>
+                </div>
             </div>
-            <div class="links">
-                <ul>
-                    <a href=""><li>Help center</li></a>
-                    <a href=""><li>Free simple template</li></a>
-                    <a href=""><li>Refund policy</li></a>
-                    <a href=""><li>Report span</li></a>
-                </ul>
+        </footer>
+        <div class="copy">
+            <div class="container">
+                copyright &copy 2019 PRIVACY POLICY
             </div>
-            <div class="links">
-                <ul>
-                    <a href=""><li>Intro to Web Pages</li></a>
-                    <a href=""><li>Beginner JavaScript</li></a>
-                    <a href=""><li>Codestorm</li></a>
-                    <a href=""><li>Fullstack JavaScript</li></a>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <div class="copy">
-        <div class="container">
-            copyright &copy 2019 PRIVACY POLICY
-        </div>
-    </div>
+        </div>div>
 </body>
 </html>

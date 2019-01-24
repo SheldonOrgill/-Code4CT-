@@ -15,7 +15,8 @@ header, main, footer {
 .banner_contact {
   background: #f9f9f9;
   max-width: 1920px;
-  height: 320px; }
+  height: 320px;
+  padding: 100px; }
 
 #solid_line {
   border-bottom: 3px solid orange; }
@@ -47,7 +48,10 @@ header, main, footer {
   grid-template-columns: 70% 30%; }
 
 h2 {
-  padding-left: 10%; }
+  margin-left: 7%; }
+
+.contact_h2 {
+  margin-left: 0%; }
 
 footer {
   font-size: 1.25em;
@@ -88,13 +92,20 @@ footer {
 
 nav {
   background: #f9f9f9;
-  color: #555;
+  color: darkgray;
   font-weight: 500;
-  padding: 1em 0; }
+  padding: 1em 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  top: 0%; }
   nav .container {
     max-width: 800px;
     margin: auto;
     display: flex; }
+  nav .home_logo {
+    width: 15%;
+    height: 15%; }
   nav ul {
     display: flex;
     width: 100%; }
@@ -153,6 +164,12 @@ footer {
   .copy .container {
     max-width: 1024px;
     margin: 0 auto; }
+
+.banner_contact {
+  background: #f9f9f9;
+  max-width: 1920px;
+  height: 320px;
+  padding: 100px; }
 
 footer {
   font-size: 1.25em;
@@ -247,7 +264,7 @@ button {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em; }
   .figures .figure_1 {
-    background-image: url("../images/info_img1.jpg");
+    background-image: url("../images/portfolio_img18.jpg");
     background-size: cover; }
   .figures .figure_2 {
     background-image: url("../images/info_img2.jpg");
@@ -288,7 +305,7 @@ button {
   padding: 7em 0; }
   .rect .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 2em;
     max-width: 1024px;
     margin: 0 auto;
@@ -298,14 +315,28 @@ button {
 
 .team_grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2em; }
   .team_grid div {
     width: 100%;
     min-height: 200px;
     height: 100%; }
-  .team_grid .face {
-    background: #666; }
+  .team_grid .face_1 {
+    background-image: url("../images/Emma.jpg");
+    background-size: cover;
+    height: 50%; }
+  .team_grid .face_2 {
+    background-image: url("../images/Tegan.jpg");
+    background-size: cover;
+    height: 50%; }
+  .team_grid .face_3 {
+    background-image: url("../images/Tracy.jpg");
+    background-size: cover;
+    height: 50%; }
+  .team_grid .face_4 {
+    background-image: url("../images/Andrea.jpg");
+    background-size: cover;
+    height: 50%; }
   .team_grid .tag {
     font-size: .9em; }
     .team_grid .tag h2, .team_grid .tag h3 {

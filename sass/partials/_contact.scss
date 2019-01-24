@@ -2,6 +2,8 @@
     background: $lightGrey;
     max-width: 1920px;
     height: 320px;
+    // margin-top: 50%;
+    padding: 100px;
 }
 #solid_line{
     border-bottom: 3px solid orange;
@@ -33,7 +35,10 @@
     grid-template-columns:70% 30% ;
 }
 h2{
-    padding-left: 10%;
+    margin-left: 7%;
+}
+.contact_h2{
+    margin-left: 0%;
 }
 footer {
     font-size: 1.25em;

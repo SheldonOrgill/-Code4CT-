@@ -1,13 +1,20 @@
 nav {
     background: $lightGrey;
-    color: #555;
+    color: darkgray;
     font-weight: 500;
     padding: 1em 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0%;
     .container {
         max-width: 800px;
         margin: auto;
         display: flex;
-
+    }
+    .home_logo{
+        width: 15%;
+        height: 15%
     }
     ul {
         display: flex;
