@@ -14,7 +14,7 @@
   margin-top: 10%; }
 
 .welcome_left {
-  text-align: right;
+  text-align: left;
   margin-left: 33%; }
 
 .welcome_head {
@@ -33,6 +33,11 @@
   background-size: cover;
   width: 100%;
   height: 100vh; }
+
+.about_right {
+  margin-left: 10%; }
+  .about_right h2 {
+    margin: 0; }
 
 .about_head {
   margin-top: 10%; }
@@ -99,37 +104,6 @@ h2 {
 .contact_h2 {
   margin-left: 0%; }
 
-footer {
-  font-size: 1.25em;
-  background: #f9f9f9;
-  padding: 4em 0; }
-  footer .container {
-    display: grid;
-    grid-template-columns: 1.5fr repeat(3, 1fr);
-    grid-gap: 1em;
-    max-width: 1240px;
-    margin: 0 auto; }
-    footer .container .heading {
-      color: #555;
-      font-weight: 500; }
-    footer .container ul {
-      padding-left: 1.2em; }
-      footer .container ul li {
-        list-style-type: square; }
-      footer .container ul a {
-        text-decoration: none;
-        color: #555; }
-        footer .container ul a:hover {
-          color: #ee534f; }
-
-.copy {
-  background: #ee534f;
-  color: #fff;
-  padding: .5em 0; }
-  .copy .container {
-    max-width: 1024px;
-    margin: 0 auto; }
-
 #home_about_info_contact1 img {
   width: 20px;
   height: 20px; }
@@ -149,6 +123,8 @@ nav {
     max-width: 800px;
     margin: auto;
     display: flex; }
+    nav .container a:hover {
+      color: #ee534f; }
   nav .home_logo {
     width: 15%;
     height: 15%; }
@@ -182,6 +158,7 @@ nav {
 
 footer {
   font-size: 1.25em;
+  display: flex;
   background: #f9f9f9;
   padding: 4em 0; }
   footer .container {
@@ -205,11 +182,11 @@ footer {
 
 .copy {
   background: #ee534f;
-  color: #fff;
-  padding: .5em 0; }
+  color: #fff; }
   .copy .container {
-    max-width: 1024px;
-    margin: 0 auto; }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0%; }
 
 .banner_contact {
   background: #f9f9f9;
@@ -219,6 +196,7 @@ footer {
 
 footer {
   font-size: 1.25em;
+  display: flex;
   background: #f9f9f9;
   padding: 4em 0; }
   footer .container {
@@ -242,11 +220,11 @@ footer {
 
 .copy {
   background: #ee534f;
-  color: #fff;
-  padding: .5em 0; }
+  color: #fff; }
   .copy .container {
-    max-width: 1024px;
-    margin: 0 auto; }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0%; }
 
 button {
   padding: 1em 2em;
@@ -265,7 +243,7 @@ button {
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh; }
+  height: 100vh; }
   .banner_home button {
     color: #fff; }
   .banner_home .container {
@@ -348,7 +326,8 @@ button {
 .rect {
   background: #000;
   color: #fff;
-  padding: 7em 0; }
+  padding: 7em;
+  margin-top: 5%; }
   .rect .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -358,6 +337,11 @@ button {
     text-align: center; }
     .rect .container img {
       width: 3em; }
+
+.rect_1 {
+  background-color: #000;
+  display: flex;
+  margin-top: 5%; }
 
 .team_grid {
   display: grid;
@@ -423,5 +407,24 @@ button {
     border-left: none;
     background: #ee534f;
     padding: .5em 1em; }
+
+.count_up {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: #e8e8e8;
+  height: 300px;
+  margin-top: 8em; }
+
+.red_line_fade .fade {
+  height: 5px;
+  width: 138.5px;
+  background-color: #545454;
+  opacity: 0.3; }
+
+.count_up .red_line_fade .red_line {
+  height: 6px;
+  width: 30px;
+  background-color: #e38f84; }
 
 /*# sourceMappingURL=main.css.map */

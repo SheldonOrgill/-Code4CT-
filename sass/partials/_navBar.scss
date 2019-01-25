@@ -11,6 +11,10 @@ nav {
         max-width: 800px;
         margin: auto;
         display: flex;
+        a:hover {
+            color: #ee534f;
+            
+          }
     }
     .home_logo{
         width: 15%;

@@ -40,44 +40,35 @@ h2{
 .contact_h2{
     margin-left: 0%;
 }
-footer {
-    font-size: 1.25em;
-    background: $lightGrey;
-    padding: 4em 0;
-    .container {
-        display: grid;
-        grid-template-columns: 1.5fr repeat(3, 1fr);
-        grid-gap: 1em;
-        max-width: 1240px;
-        margin: 0 auto;
-        .heading {
-            color: #555;
-            font-weight: 500;
-        }
-        ul {
-            padding-left: 1.2em;
-            li {
-                list-style-type: square;
-            }
-            a {
-                text-decoration: none;
-                color: #555;
-                &:hover {
-                    color: $primary;
-                }
-            }
-        }
-    }
-}
-.copy {
-    background: $primary;
-    color: #fff;
-    padding: .5em 0;
-    .container {
-        max-width: 1024px;
-        margin: 0 auto;
-    }
-}
+// footer {
+//     font-size: 1.25em;
+//     background: $lightGrey;
+//     padding: 4em 0;
+//     .container {
+//         display: grid;
+//         grid-template-columns: 1.5fr repeat(3, 1fr);
+//         grid-gap: 1em;
+//         max-width: 1240px;
+//         margin: 0 auto;
+//         .heading {
+//             color: #555;
+//             font-weight: 500;
+//         }
+//         ul {
+//             padding-left: 1.2em;
+//             li {
+//                 list-style-type: square;
+//             }
+//             a {
+//                 text-decoration: none;
+//                 color: #555;
+//                 &:hover {
+//                     color: $primary;
+//                 }
+//             }
+//         }
+//     }
+// }
 #home_about_info_contact1{
     img{
         width: 20px;

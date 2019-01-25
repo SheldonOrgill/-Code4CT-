@@ -1,5 +1,6 @@
 footer {
     font-size: 1.25em;
+    display: flex;
     background: $lightGrey;
     padding: 4em 0;
     .container {
@@ -30,9 +31,11 @@ footer {
 .copy {
     background: $primary;
     color: #fff;
-    padding: .5em 0;
+    // padding: .5em 0;
     .container {
-        max-width: 1024px;
-        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // max-width: 1024px;
+        margin: 0% ;
     }
 }
