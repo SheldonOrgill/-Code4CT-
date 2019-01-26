@@ -5,3 +5,17 @@
     // margin-top: 50%;
     padding: 100px;
 }
+.course{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10%;
+    border-color: hotpink;
+    height: 100vh;
+    
+}
+.main_cart{
+    // border: 3px solid black; 
+.course_det{
+    border: 3px solid black;  
+}
+}
