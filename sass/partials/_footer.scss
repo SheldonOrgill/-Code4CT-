@@ -35,7 +35,14 @@ footer {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        // max-width: 1024px;
+        max-width: 1024px;
         margin: 0% ;
     }
+};
+.footer_link{
+margin-left: 68%;
+}
+.rights{
+    width: 15%;
+    margin: 0;
 }
