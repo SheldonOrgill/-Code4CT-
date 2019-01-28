@@ -501,6 +501,10 @@ button {
   width: 30px;
   background-color: #e38f84; }
 
+.donate {
+  background-color: transparent;
+  color: white; }
+
 .galleryContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; }
@@ -522,5 +526,9 @@ button {
     background-size: contain; }
   .gallery img:hover {
     transform: scale(1.1); }
+
+button {
+  background-color: #ee534f;
+  color: "Poppins", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
