@@ -337,10 +337,15 @@ button {
     font-weight: 500; }
   .info .print {
     color: #666; }
+  .info button:hover {
+    width: 147px; }
   .info button {
-    font-size: 1em;
-    border-color: #ddd;
-    color: #666; }
+    height: 50px;
+    width: 140px;
+    padding: 5px;
+    margin: 5px;
+    z-index: -1;
+    cursor: pointer; }
   .info .description {
     margin-bottom: 5em; }
 

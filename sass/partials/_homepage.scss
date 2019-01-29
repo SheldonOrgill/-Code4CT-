@@ -57,10 +57,24 @@ button {
     .print {
         color: #666;
     }
+    // button {
+    //     font-size: 1em;
+    //     border-color: #ddd;
+    //     color: #666;
+    // }
+    button:hover{
+        // Increases 5%
+        width: 147px;
+    }
     button {
-        font-size: 1em;
-        border-color: #ddd;
-        color: #666;
+        height: 50px;
+        width: 140px;
+        padding: 5px;
+        margin: 5px;
+        // border: 1px solid $theme_grey;
+        z-index: -1;
+        cursor: pointer;
+    
     }
     .description {
         margin-bottom: 5em; 
