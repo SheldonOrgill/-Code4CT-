@@ -5,7 +5,7 @@ button {
     border-radius: 4px;
     font-weight: 500;
     margin: 0 .35em;
-}
+}   
 .banner_home {
     display: flex;
     justify-content: center;
@@ -57,29 +57,13 @@ button {
     .print {
         color: #666;
     }
-    // button {
-    //     font-size: 1em;
-    //     border-color: #ddd;
-    //     color: #666;
-    // }
-    button:hover{
-        // Increases 5%
-        width: 147px;
-    }
-    button {
-        height: 50px;
-        width: 140px;
-        padding: 5px;
-        margin: 5px;
-        // border: 1px solid $theme_grey;
-        z-index: -1;
-        cursor: pointer;
-    
-    }
+
+   
+}
     .description {
         margin-bottom: 5em; 
     }
-}
+
 .figures {
     display: grid;
     grid-template-columns: 1fr 1fr;

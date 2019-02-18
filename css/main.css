@@ -221,11 +221,10 @@ footer {
   .copy .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1024px;
-    margin: 0%; }
+    max-width: 1024px; }
 
 .footer_link {
-  margin-left: 68%; }
+  margin-left: 85%; }
 
 .rights {
   width: 15%;
@@ -277,11 +276,10 @@ footer {
   .copy .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1024px;
-    margin: 0%; }
+    max-width: 1024px; }
 
 .footer_link {
-  margin-left: 68%; }
+  margin-left: 85%; }
 
 .rights {
   width: 15%;
@@ -337,17 +335,9 @@ button {
     font-weight: 500; }
   .info .print {
     color: #666; }
-  .info button:hover {
-    width: 147px; }
-  .info button {
-    height: 50px;
-    width: 140px;
-    padding: 5px;
-    margin: 5px;
-    z-index: -1;
-    cursor: pointer; }
-  .info .description {
-    margin-bottom: 5em; }
+
+.description {
+  margin-bottom: 5em; }
 
 .figures {
   display: grid;
@@ -531,9 +521,5 @@ button {
     background-size: contain; }
   .gallery img:hover {
     transform: scale(1.1); }
-
-button {
-  background-color: #ee534f;
-  color: "Poppins", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
